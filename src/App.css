@@ -2,37 +2,45 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: rebeccapurple;
   color: white;
+  padding: 10px;
+  border:solid 5px black;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.box-container{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.magnifier {
+  /* Styles for <div> around image and magnifying glass */
+  position: absolute !important;
+  width: 131px !important;
+  top: 60px;
+  left: 617px;
+  display: inline-block;
+  background-color: red;
+  
+}
+
+.magnifier-image {
+  /* Styles for large image */
+}
+
+.magnifying-glass {
+  /* Styles for magnifying glass */
 }
